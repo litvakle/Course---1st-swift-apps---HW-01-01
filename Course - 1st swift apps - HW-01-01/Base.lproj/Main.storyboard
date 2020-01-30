@@ -16,24 +16,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryJ-TJ-wpD">
-                                <rect key="frame" x="20" y="64" width="374" height="384"/>
+                                <rect key="frame" x="20" y="64" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNq-f6-PIi">
-                                <rect key="frame" x="20" y="478" width="374" height="384"/>
+                                <rect key="frame" x="20" y="463" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="ryJ-TJ-wpD" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="192:448" id="2pJ-m1-qcW"/>
-                            <constraint firstItem="bNq-f6-PIi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FTp-Ub-2Rd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bNq-f6-PIi" secondAttribute="trailing" constant="20" id="QYn-n3-cj6"/>
-                            <constraint firstItem="bNq-f6-PIi" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="192:448" id="UNA-oQ-zam"/>
-                            <constraint firstItem="ryJ-TJ-wpD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Voc-oh-PRp"/>
-                            <constraint firstAttribute="bottom" secondItem="bNq-f6-PIi" secondAttribute="bottom" constant="34" id="aMu-ls-o8U"/>
-                            <constraint firstItem="ryJ-TJ-wpD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c4u-mQ-nJO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ryJ-TJ-wpD" secondAttribute="trailing" constant="20" id="sMA-gK-U47"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bNq-f6-PIi" secondAttribute="bottom" constant="20" id="0UT-WJ-wHT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ryJ-TJ-wpD" secondAttribute="trailing" constant="20" id="7lU-51-V3g"/>
+                            <constraint firstItem="bNq-f6-PIi" firstAttribute="top" secondItem="ryJ-TJ-wpD" secondAttribute="bottom" constant="20" id="Kr3-1E-Sx3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bNq-f6-PIi" secondAttribute="trailing" constant="20" id="NRM-Nd-Lxx"/>
+                            <constraint firstItem="bNq-f6-PIi" firstAttribute="top" secondItem="ryJ-TJ-wpD" secondAttribute="bottom" constant="20" id="OHi-5K-ppt"/>
+                            <constraint firstItem="ryJ-TJ-wpD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="VrU-Fs-3ek"/>
+                            <constraint firstItem="ryJ-TJ-wpD" firstAttribute="height" secondItem="bNq-f6-PIi" secondAttribute="height" id="Y1I-Np-p65"/>
+                            <constraint firstItem="ryJ-TJ-wpD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YfV-QE-K8O"/>
+                            <constraint firstItem="bNq-f6-PIi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="x3l-2F-NT5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
